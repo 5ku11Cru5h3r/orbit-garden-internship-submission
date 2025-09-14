@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto flex items-center justify-between py-4">
           <Link to="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded bg-primary" />
-            <span className="font-extrabold tracking-tight text-xl">OralVis Healthcare</span>
+            <span className="font-extrabold tracking-tight text-xl">Orbit Healthcare</span>
           </Link>
           <nav className="flex items-center gap-4">
             {!user && (
@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </header>
       <main className="container mx-auto py-8 px-4">{children}</main>
-      <footer className="border-t py-8 text-xs text-muted-foreground text-center">© {new Date().getFullYear()} OralVis Healthcare</footer>
+      <footer className="border-t py-8 text-xs text-muted-foreground text-center">© {new Date().getFullYear()}Yash Jha Orbit-Garden Healthcare</footer>
     </div>
   );
 }

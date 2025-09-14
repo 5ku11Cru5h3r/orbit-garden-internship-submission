@@ -141,3 +141,6 @@ function drawFree(ctx: CanvasRenderingContext2D, points: {x:number;y:number}[], 
   for (const p of points.slice(1)) ctx.lineTo(p.x, p.y);
   ctx.stroke();
 }
+function currentId(): string {
+  return crypto.randomUUID();
+}
